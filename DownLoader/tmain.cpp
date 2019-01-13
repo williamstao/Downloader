@@ -73,53 +73,6 @@ public:
 int main(int argc, char** argv)
 {
 	my_curl curl_init;
-	/*const char* filepath = "";
-	std::string url = "";
-	std::string md5 = "";
-	std::string name = "";
-	std::string cnt = "";
-	if (argc != 2)
-	{
-		printf("downloader configPath\n");
-		filepath = "C:\\Users\\williamtao\\Desktop\\config.txt";
-	}
-	else
-	{
-		filepath = argv[1];
-	}
-
-	int err = readfile(filepath, url, md5, name, cnt);
-	if (err != 0)
-	{
-		return -1;
-	}
-
-	printf("url:%s\n",url.c_str());
-	printf("md5:%s\n", md5.c_str());
-	printf("name:%s\n",name.c_str());
-	printf("cnt:%s\n", cnt.c_str());
-
-	for (int i = 0; i < cnt.length(); i++)
-	{
-		if (!isdigit(cnt[i]))
-		{
-			return -1;
-		}
-	}
-	dlCnt = std::stoi(cnt);*/
-
-	/*const char* url = "http://dlied5.myapp.com/myapp/1104466820/sgame/2017_com.tencent.tmgp.sgame_h7916_1.42.1.20_5eb4f3.apk";
-	const char* md5 = "1ea728e92a6aa8186c02358f22f06659";
-	const char* name = "2017_com.tencent.tmgp.sgame_h7916_1.42.1.20_5eb4f3.apk";*/
-
-	//const char* url = "http://dlied5.myapp.com/myapp/100539858/feiji/2017_com.tencent.feiji_h100_1.0.66_666477.apk";
-	//const char* md5 = "24dfe3663290f2484a8961e1cbd3da9e";
-	//const char* name = "2017_com.tencent.feiji_h100_1.0.66_666477.apk";
-
-	//const char* url = "http://down.mtp.oa.com/storage/add_shell/apk_file/201812/29/10/94773_8204a26147843cb15b82b4ee61ace8e0_17087/WePop_2018-12-29-10-58_0.0.3.65.apk?t=vx6h5BULwxCXrn7oA6ZRzHbBo54PzzkEO0SMCb1BR5p7/4coYHREfdUHdf6zhzApjRgfpoLJJYSxKEAMWjlziJUkuzj8R9BlQUa/i/M0LagHj5lD9pQPW3txWpOABLDEKOyH3LaOvgJ/jFoicEwpnQ==";
-	//const char* md5 = "8204a26147843cb15b82b4ee61ace8e0";
-	//const char* name = "WePop_2018-12-29-10-58_0.0.3.65.apk";
-
 	if (argc != 4)
 	{
 		printf("argument error");
